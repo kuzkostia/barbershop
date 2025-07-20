@@ -1,0 +1,337 @@
+body {
+  font-family: "open sans", sans-serif;
+}
+
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*----------HEADER section styles------*/
+
+.header {
+  background-color: darkgrey;
+}
+
+.header-list-link,
+.header-phone {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+.header-btn {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/*----------HERO section styles------*/
+
+.hero {
+  background-color: black;
+}
+.hero-list {
+}
+
+.hero-list-item {
+}
+.hero-list-link {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+.hero-pre-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.hero-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/*----------ABOUT section styles------*/
+
+.about {
+}
+.about-list {
+}
+.about-list-item {
+}
+.about-list-img {
+}
+.about-pre-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #303030;
+}
+.about-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.about-after-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #555;
+}
+.about-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+  color: #555;
+}
+.about-btn {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+/*----------SERVICES section styles------*/
+
+.services {
+}
+
+.services-list-item {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.services-btn {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/*----------BENEFITS section styles------*/
+
+.benefits {
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-number {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.benefits-list-text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  color: #303030;
+}
+.benefits-pre-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #303030;
+}
+.benefits-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.benefits-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #555;
+}
+
+/*----------BARBERS section styles------*/
+
+.barbers {
+}
+.barbers-pre-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #303030;
+}
+.barbers-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.barbers-list {
+}
+.barbers-list-item {
+}
+.barbers-list-img {
+}
+.barbers-list-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+.barbers-list-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
+
+/*----------GALLERY section styles------*/
+
+.gallery {
+}
+.gallery-pre-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #303030;
+}
+.gallery-list {
+}
+.gallery-list-item {
+}
+.gallery-list-img {
+}
+
+/*----------ONLINE-BOOKING section styles------*/
+
+.online-booking {
+}
+.online-booking-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+/*----------CONTACTS section styles------*/
+.contacts {
+  background-color: #303030;
+}
+.contacts-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.contacts-address {
+}
+.contacts__location {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.contacts-hours {
+}
+.contacts-subtitle {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.contacts-time {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/*----------FOOTER section styles------*/
+.footer {
+}
+.footer-copy {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
+}
+.footer-list {
+}
+.footer-list-item {
+}
+.footer-list-link {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
